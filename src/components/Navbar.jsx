@@ -16,6 +16,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
+                <p> Hello</p>
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
