@@ -4,6 +4,8 @@ import { FaAlignRight } from "react-icons/fa";
 import logo from "../images/neelaweralu_dec24.jpg";
 import "../styles/Navbar.css";
 
+// Test
+
 export default class Navbar extends Component {
     state = {
         isOpen: false
