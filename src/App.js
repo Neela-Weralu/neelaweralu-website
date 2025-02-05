@@ -9,7 +9,7 @@ import Error from "./pages/Error";
 
 import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallary";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import TwoColumns from "./components/TwoColumns";
 
 function App() {
