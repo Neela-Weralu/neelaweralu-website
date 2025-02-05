@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { FaCloudSun, FaHiking, FaShuttleVan } from "react-icons/fa";
+import { ImSpoonKnife } from "react-icons/im";
 import Title from "./Title";
 
 export default class Services extends Component {
     state = {
         services: [
             {
-                icon: <FaCocktail />,
+                icon: <ImSpoonKnife />,
                 title: "Free Breakfast",
                 info:
                 "Delicious Breakfast is served every morning with a variety of options to choose from."
@@ -24,7 +25,7 @@ export default class Services extends Component {
                 "We offer free Tuk Tuk rides to the city center and back to the hotel for all our guests"
             },
             {
-                icon: <FaBeer />,
+                icon: <FaCloudSun />,
                 title: "Mandaram Nuwara Trip",
                 info:
                 "Mandaram Nuwara - very beatiful place covered by hills and tea states A must visit place to enjoy the beauty of the nature."

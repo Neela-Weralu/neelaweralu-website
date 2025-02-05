@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
-import logo from "../images/Neela_new_logo.png";
+import logo from "../images/neelaweralu_dec24.jpg";
 import "../styles/Navbar.css";
 
 export default class Navbar extends Component {
@@ -16,7 +16,6 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <p> Hello</p>
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">

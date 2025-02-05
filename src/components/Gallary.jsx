@@ -7,28 +7,28 @@ export default function Gallery() {
   const spaces = [
     {
       id: 1,
-      name: "Luxurious Lobby",
-      description: "Grand entrance with modern design",
+      name: "Family Room",
+      description: "Nicely arranged with modern design",
       image: img,
       alt: "Elegant hotel lobby with modern furnishings"
     },
     {
       id: 2,
-      name: "Rooftop Pool",
-      description: "Panoramic city views",
+      name: "Front Garden",
+      description: "Many Sri Lankan Trees and Flowers",
       image: temp,
       alt: "Rooftop swimming pool with city skyline view"
     },
     {
       id: 3,
-      name: "Fine Dining Restaurant",
-      description: "Elegant atmosphere & cuisine",
+      name: "Hill Top View",
+      description: "Panaromic View of Hills and Resovoir",
       image: temp,
       alt: "Upscale restaurant interior with elegant table settings"
     },
     {
       id: 4,
-      name: "Wellness Spa",
+      name: "Delux Room",
       description: "Relaxation & rejuvenation",
       image: img,
       alt: "Tranquil spa treatment room"
