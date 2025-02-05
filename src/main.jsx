@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
     <RoomProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/neelaweralu-website/">
             <App />
         </BrowserRouter>
     </RoomProvider>,
