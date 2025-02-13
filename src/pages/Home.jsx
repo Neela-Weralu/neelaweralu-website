@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
 // import TwoColumns from "../components/TwoColumns";
+//test//
 
 const Home = () => {
     return (
