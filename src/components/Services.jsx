@@ -28,7 +28,7 @@ export default class Services extends Component {
                 icon: <FaCloudSun />,
                 title: "Mandaram Nuwara Trip",
                 info:
-                "Mandaram Nuwara - very beatiful place covered by hills and tea states A must visit place to enjoy the beauty of the nature."
+                "Mandaram Nuwara - very beatiful place covered by hills, water falls and tea states A must visit place to enjoy the beauty of the nature."
             }
         ]
     };
