@@ -6,7 +6,7 @@ function TwoColumns() {
   const column2Items = ["Home", "Photo Gallery", "Email"];
   const links = {
     "Home": "/",
-    "Photo Gallery": "gallery"
+    "Photo Gallery": "/gallery"
   };
 
   return (
