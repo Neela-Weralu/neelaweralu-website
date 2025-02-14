@@ -4,8 +4,6 @@ import { FaAlignRight } from "react-icons/fa";
 import logo from "../images/neela_logo.svg";
 import "../styles/Navbar.css";
 
-// Test
-
 export default class Navbar extends Component {
     state = {
         isOpen: false
@@ -17,11 +15,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar" style={{ marginTop: "0px", marginBottom: "5px" }}>
+            <nav className="navbar">
             <div className="nav-center">
                 <div className="nav-header">
                 <Link to="/">
-                    <img src={logo} alt="Beach Resort" style={{ width: "120px", height: "auto" }} />
+                    <img src={logo} alt="Beach Resort" style={{ width: "10px", height: "auto" }} />
                 </Link>
                 <button type="button" className="nav-btn" onClick={this.handleToggle} >
                     <FaAlignRight className="nav-icon" />
