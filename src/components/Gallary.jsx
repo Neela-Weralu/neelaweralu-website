@@ -2,7 +2,8 @@ import React from 'react'
 import styles from "../styles/Gallery.module.css"
 import img from "../images/room-1.jpeg"
 import temp from "../images/photo2.jpg"
-
+import temp1 from "../images/photo3.jpg"
+import temp2 from "../images/photo4.jpg"
 export default function Gallery() {
   const spaces = [
     {
@@ -16,7 +17,7 @@ export default function Gallery() {
       id: 2,
       name: "Front Garden",
       description: "Many Sri Lankan Trees and Flowers",
-      image: temp,
+      image: temp1,
       alt: "Rooftop swimming pool with city skyline view"
     },
     {
@@ -28,9 +29,9 @@ export default function Gallery() {
     },
     {
       id: 4,
-      name: "Delux Room",
+      name: "Enjoy the Environment",
       description: "Relaxation & rejuvenation",
-      image: img,
+      image: temp2,
       alt: "Tranquil spa treatment room"
     },
   ]
