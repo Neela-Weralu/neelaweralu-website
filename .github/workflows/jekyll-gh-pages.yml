@@ -41,6 +41,8 @@ jobs:
         run: npm run build
       - name: Duplicate index.html as 404.html
         run: cp dist/index.html dist/404.html
+      - name: Check the dist folder
+        run: tree dist
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
