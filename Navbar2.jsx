@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
 import logo from "../images/neela_logo.svg";
 import "../styles/Navbar.css";
+//s
 
 export default class Navbar extends Component {
     state = {
