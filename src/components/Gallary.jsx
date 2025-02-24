@@ -2,7 +2,15 @@ import React from 'react'
 import styles from "../styles/Gallery.module.css"
 import img from "../images/room-1.jpeg"
 import temp from "../images/photo2.jpg"
-
+import temp1 from "../images/photo3.jpg"
+import temp2 from "../images/photo4.jpg"
+import temp3 from "../images/photo5.jpg"
+import temp4 from "../images/photo7.jpg"
+import temp5 from "../images/photo8.jpg"
+import temp6 from "../images/photo9.jpg"
+import temp7 from "../images/photo10.jpg"
+import temp8 from "../images/photo12.jpg"
+import temp9 from "../images/photo6.jpg"
 export default function Gallery() {
   const spaces = [
     {
@@ -16,7 +24,7 @@ export default function Gallery() {
       id: 2,
       name: "Front Garden",
       description: "Many Sri Lankan Trees and Flowers",
-      image: temp,
+      image: temp1,
       alt: "Rooftop swimming pool with city skyline view"
     },
     {
@@ -28,9 +36,58 @@ export default function Gallery() {
     },
     {
       id: 4,
-      name: "Delux Room",
+      name: "Enjoy the Environment",
       description: "Relaxation & rejuvenation",
-      image: img,
+      image: temp3,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 5,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp4,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 6,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp5,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 7,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp6,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 8,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp7,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 9,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp8,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 10,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp9,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 11,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp2,
       alt: "Tranquil spa treatment room"
     },
   ]
