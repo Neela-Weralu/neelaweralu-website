@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import room1 from "../images/room-1.jpeg"
-
+// comment updated for testing 
 const RoomDetails = () => {
     const {slug} = useParams();
     // console.log(params);  
