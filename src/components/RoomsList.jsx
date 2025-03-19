@@ -6,6 +6,7 @@ const RoomsList = ({ rooms }) => {
         return (
             <div className="empty-search">
                 <h3>unfortunately no rooms matched your search parameters</h3>
+                console.log (rooms, "not found")
             </div>
         );
     }

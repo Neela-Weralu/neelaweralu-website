@@ -43,6 +43,7 @@ export default class RoomProvider extends Component {
     formatData(items) {
         let tempItems = items.map(item => {
             let id = item.sys.id;
+            console.log (id);
             let images = item.fields.images.map(image => image.fields.file.url);
 
             let room = { ...item.fields, images, id };

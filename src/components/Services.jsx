@@ -22,7 +22,7 @@ export default class Services extends Component {
                 icon: <FaShuttleVan />,
                 title: "Tuk Tuk Rides",
                 info:
-                "We offer free Tuk Tuk rides to the city center and back to the hotel for all our guests"
+                "We offer affordable Tuk Tuk rides to the city center and back to the hotel for all our guests"
             },
             {
                 icon: <FaCloudSun />,
