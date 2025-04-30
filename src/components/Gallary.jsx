@@ -90,6 +90,13 @@ export default function Gallery() {
       image: temp2,
       alt: "Tranquil spa treatment room"
     },
+    {
+      id: 12,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp2,
+      alt: "Tranquil spa treatment room"
+    },
   ]
 
   return (
