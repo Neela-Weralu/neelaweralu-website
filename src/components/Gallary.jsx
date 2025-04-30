@@ -20,7 +20,7 @@ import temp15 from "../images/photo18.jpg"
 import temp16 from "../images/photo19.jpg"
 import temp17 from "../images/photo20.jpg"
 import temp18 from "../images/balcony1.jpg"
-import temp19 from "../images/balcony2.jpg"
+import temp19 from "../images/balcony2_1.jpg"
 export default function Gallery() {
   const spaces = [
     {
