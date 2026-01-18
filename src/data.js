@@ -138,7 +138,7 @@ const roomsData = [
       name: "single standard",
       slug: "single-standard",
       type: "single",
-      price: 25000,
+      price: 11100,
       size: 300,
       capacity: 1,
       pets: true,
