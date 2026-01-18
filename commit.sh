@@ -10,15 +10,9 @@ if [ "$current_branch" != "main" ]; then
 fi
 
 if [ -z "$1" ]; then
-    echo "Usage: ./commit_and_deploy.sh <commit message>."
+    echo "Usage: ./commit.sh <commit message>."
     exit 1
 fi
 
 git commit -m "$1"
-
-# save current branch, switch to deploy, merge main, push, then return
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-git checkout deploy
-git merge main
-git push origin deploy
-git checkout "$current_branch"
+git push origin main
