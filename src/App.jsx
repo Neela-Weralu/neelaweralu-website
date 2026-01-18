@@ -20,8 +20,8 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/gallery" element={<Gallery />} />
-                <Route exact path="/rooms/" element={<RoomIndex/>} />
-                <Route exact path="/rooms/:slug" element={<RoomDetails/>} />
+                <Route exact path="/rooms/" element={<Rooms/>} />
+                <Route exact path="/rooms/:slug" element={<Rooms/>} />
                 <Route path="/" element={<TwoColumns />} />
                 <Route element={Error} />
             </Routes>

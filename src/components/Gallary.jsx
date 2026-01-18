@@ -8,9 +8,19 @@ import temp3 from "../images/photo5.jpg"
 import temp4 from "../images/photo7.jpg"
 import temp5 from "../images/photo8.jpg"
 import temp6 from "../images/photo9.jpg"
-import temp7 from "../images/photo10.jpg"
-import temp8 from "../images/photo12.jpg"
+import temp7 from "../images/photo13.jpg"
+import temp8 from "../images/photo10.jpg"
 import temp9 from "../images/photo6.jpg"
+import temp10 from "../images/photo12.jpg"
+import temp11 from "../images/photo14.jpg"
+import temp12 from "../images/photo15.jpg"
+import temp13 from "../images/photo16.jpg"
+import temp14 from "../images/photo17.jpg"
+import temp15 from "../images/photo18.jpg"
+import temp16 from "../images/photo19.jpg"
+import temp17 from "../images/photo20.jpg"
+import temp18 from "../images/balcony1.jpg"
+import temp19 from "../images/balcony2_1.jpg"
 export default function Gallery() {
   const spaces = [
     {
@@ -88,6 +98,76 @@ export default function Gallery() {
       name: "Enjoy the Environment",
       description: "Relaxation & rejuvenation",
       image: temp2,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 12,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp10,
+      alt: "Tranquil spa treatment room"
+    },
+      {
+      id: 13,
+      name: "Enjoy the Environment",
+      description: "Relaxation & rejuvenation",
+      image: temp11,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 14,
+      name: "Room Facilities",
+      description: "",
+      image: temp12,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 15,
+      name: "Room Facilities",
+      description: "",
+      image: temp13,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 16,
+      name: "Room Facilities",
+      description: "",
+      image: temp14,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 17,
+      name: "Dining Area",
+      description: "Enjoy the meals with nice environment",
+      image: temp15,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 18,
+      name: "Dining Area",
+      description: "Enjoy the meals with nice environment",
+      image: temp16,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 19,
+      name: "Room Facilities",
+      description: "Enjoy your breakfast",
+      image: temp17,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 20,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp18,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 21,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp19,
       alt: "Tranquil spa treatment room"
     },
   ]

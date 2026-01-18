@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/TwoColumns.css"
 
 function TwoColumns() {
-  const column1Items = ["Tel: 94 755500890", "e-mail: jeewanasampath11@gmail.com", "Whatsapp: 94 755500890"];
+  const column1Items = ["Tel: 94 755500890", "e-mail: neelaweralu@gmail.com", "Whatsapp: 94 755500890"];
   const column2Items = ["Home", "Photo Gallery", "Email"];
   const links = {
     "Home": "/",
