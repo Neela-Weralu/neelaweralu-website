@@ -1,5 +1,4 @@
 #!/bin/bash
-./commit.sh
 
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 git pull
