@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             <Hero>
-                <Banner title="luxurious rooms" subtitle="deluxe rooms starting at LKR 18,000" >
+                <Banner title="luxurious rooms" subtitle="deluxe rooms starting at LKR 10,000" >
                     <Link to="/rooms" className="btn-primary">
                         our rooms
                     </Link>
