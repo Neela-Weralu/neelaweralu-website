@@ -4,12 +4,12 @@ import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
 import img1 from "./images/room-1.jpeg";
 import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
+import img3 from "./images/room-21.jpeg";
+import img4 from "./images/room-8.jpeg";
 import img5 from "./images/room-5.jpeg";
 import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-21.jpeg";
-import img8 from "./images/room-8.jpeg";
+import img7 from "./images/room-3.jpeg";
+import img8 from "./images/room-4.jpeg";
 import img9 from "./images/room-9.jpeg";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
@@ -138,7 +138,7 @@ const roomsData = [
       name: "single standard",
       slug: "single-standard",
       type: "single",
-      price: 11000,
+      price: 10000,
       size: 300,
       capacity: 1,
       pets: true,
@@ -195,7 +195,7 @@ const roomsData = [
       name: "single deluxe",
       slug: "single-deluxe",
       type: "single",
-      price: 13000,
+      price: 12000,
       size: 400,
       capacity: 1,
       pets: true,

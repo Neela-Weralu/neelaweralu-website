@@ -8,7 +8,7 @@ export default class Services extends Component {
         services: [
             {
                 icon: <ImSpoonKnife />,
-                title: "Free Breakfast",
+                title: "Breakfast",
                 info:
                 "Delicious Breakfast is served every morning with a variety of options to choose from."
             },
