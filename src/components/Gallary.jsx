@@ -20,7 +20,11 @@ import temp15 from "../images/photo18.jpg"
 import temp16 from "../images/photo19.jpg"
 import temp17 from "../images/photo20.jpg"
 import temp18 from "../images/balcony1.jpg"
-import temp19 from "../images/balcony2_1.jpg"
+import temp20 from "../images/balcony2_1.jpg"
+import temp21 from "../images/pool1.jpg"
+import temp22 from "../images/pool2.jpg"
+import temp23 from "../images/pool3.jpg"
+import temp24 from "../images/pool4.jpg"
 export default function Gallery() {
   const spaces = [
     {
@@ -168,6 +172,34 @@ export default function Gallery() {
       name: "Room Facilities",
       description: "Private balcony for each room",
       image: temp19,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 22,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp21,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 23,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp22,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 24,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp23,
+      alt: "Tranquil spa treatment room"
+    },
+    {
+      id: 25,
+      name: "Room Facilities",
+      description: "Private balcony for each room",
+      image: temp24,
       alt: "Tranquil spa treatment room"
     },
   ]
